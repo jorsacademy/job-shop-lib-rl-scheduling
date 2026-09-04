@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 
 from job_shop_lib.benchmarking import load_benchmark_instance
-from job_shop_lib.dispatching import DispatchingRuleSolver
+from job_shop_lib.dispatching.rules import DispatchingRuleSolver
 
 DEFAULT_RULES = (
     "shortest_processing_time",
